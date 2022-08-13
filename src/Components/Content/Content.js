@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import style from './Content.module.css';
-
 const Content = () => {
   let [display,editDisplay]=useState("")
   const [resultDisplay,scrDisplay]=useState("0")
