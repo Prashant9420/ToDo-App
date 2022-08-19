@@ -12,7 +12,7 @@ const Content = () => {
           display=display.replace("π",Math.round(Math.PI*100)/100);
         }
       }
-
+      
       // for underroot
 
       if(display.includes("√")){
@@ -84,6 +84,13 @@ const Content = () => {
     <td onClick={()=>handleClick(")")}>)</td>
     <td onClick={()=>handleClick("clr")}>clr</td>
     <td onClick={()=>handleClick("π")}>π</td>
+  </tr>
+  <tr>
+    <td onClick={()=>handleClick("sin")}>sin</td>
+    <td onClick={()=>handleClick("cos")}>cos</td>
+    <td onClick={()=>handleClick("tan")}>tan</td>
+    <td onClick={()=>handleClick("log")}>log</td>
+    <td onClick={()=>handleClick("mod")}>mod</td>
   </tr>
   <tr>
     <td onClick={()=>handleClick("7")}>7</td>

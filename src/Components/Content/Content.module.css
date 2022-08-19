@@ -16,7 +16,7 @@
     
 }
 .banner{
-    height: 10%;
+    height: 8%;
     /* color: cyan; */
     /* border: 1px solid green; */
     text-align: center;
@@ -49,7 +49,7 @@
 }
 .keypad{
     background-color: rgb(67, 67, 82);
-    height: 50%;
+    height: 52%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
