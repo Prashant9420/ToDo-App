@@ -1,0 +1,31 @@
+body{
+    background-image: url(wallp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.check{
+    width:50px;
+    height:50px;
+    /* border: 2px solid red; */
+    background-image: url('checked.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.completeTask{
+    width:45%;
+    background-color:green;
+    border:2px solid green;
+    color: white;
+    margin:0px 20px;
+    padding:5px 0px;
+    display:flex;
+    border-radius: 20px;
+    align-items:center;
+    cursor:pointer;
+}
+.completeTask:hover{
+    background-color: yellowgreen;
+    color:black;
+    box-shadow: 10px 10px 20px yellowgreen;
+}
